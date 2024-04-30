@@ -1,0 +1,80 @@
+body {
+    font-family: sans-serif;
+    background-image: url(fondoBody2.jpg);
+}
+
+#pokemon {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 300px;
+    display: none;
+}
+
+h1{
+  margin-top: -10px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+  padding: 40px;
+  color: white;
+}
+
+h2{
+  font-size: 24px;
+  color: black;
+  text-align: center;
+}
+
+p{
+  font-size: 18px;
+  color: black;
+}
+
+.buscarPoke{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pokemon-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+
+input[type="text"] {
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 15px;
+    margin: 10px 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .container{
+    background-image: url(pokeballSinfondo-removebg.png), url(cartaFondo.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+  }
+
+
+
+  
+
+
+
+  
+  
